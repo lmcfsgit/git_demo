@@ -1,0 +1,7 @@
+Git commands:
+
+    - Initialize git in current directory: git initialize
+    - Adding files for git to track: git add <files>
+    - Show git status: git status
+    - Removing files from git: git rm --cached <files>
+    - Commit changes to git: git commit -m "message"
