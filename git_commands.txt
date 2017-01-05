@@ -14,5 +14,5 @@ Git commands:
             The -u option tells git to remembers the parameters, so next time you only have to write 
             git push
         )
-    - Show what's in stagin area: git diff --staged
+    - Show what's in staging area: git diff --staged
     - Ignore changes made to the file since last commit: git checkout -- <file>
