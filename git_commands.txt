@@ -6,7 +6,9 @@ Git commands:
     - Removing files from git: git rm --cached <files>
     - Commit changes to git: git commit -m "message"
     - Add all changes to stage for the next commit: git add -u
-    - Show history of git project: git log
+    - Show history of git project: 
+        git log
+        git log --pretty="%h - %s" --author=lmcfsgit --since="2017-01-10" --before="2017-01-11" --no-merges
     - Show the details for a particular commit: git show <hash>
     - Add a remote origin: git remote add origin https:github.com/<username>/<git repo>
     - Push the code to the origin: git push -u origin master 
@@ -21,3 +23,4 @@ Git commands:
     - Merge branch with master: git merge <branch name>
     - Show branches: git branch
     - Delete a branch: git branch -d clean_up
+    
