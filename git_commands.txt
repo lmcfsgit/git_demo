@@ -24,3 +24,13 @@ Git commands:
     - Show branches: git branch
     - Delete a branch: git branch -d clean_up
     
+    Tags: 
+    
+    - List available tags: git tag
+    - List tags with a particular pattern: git tag -l "pattern"
+    - Create an annotated tag: git tag -a <tag name> -m "tag message"
+    - Show tag: git show <tag name>
+    - Add later tagging: git tag -a <tag name> <7 first characters of log hash>
+    - Sharing tags: git push origin <tag name or --tags for all tags>
+    - Checking out tags: git checkout -b <new baranch name> <tag_name>
+    
