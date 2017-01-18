@@ -30,7 +30,7 @@ Git commands:
     
     Remote branches:
     
-    - Show remote branches: git 
+    - Show remote branches: git remote show origin
     - Delete remote branch: git push origin --delete <remote branch name>
     
     
@@ -42,7 +42,7 @@ Git commands:
     - Show tag: git show <tag name>
     - Add later tagging: git tag -a <tag name> <7 first characters of log hash>
     - Sharing tags: git push origin <tag name or --tags for all tags>
-    - Checking out tags: git checkout -b <new baranch name> <tag_name>
+    - Checking out tags: git checkout -b <new branch name> <tag_name>
     
     
     - Ignore changes to a file: git update-index --assume-unchanged <file>
