@@ -18,11 +18,21 @@ Git commands:
         )
     - Show what's in staging area: git diff --staged
     - Ignore changes made to the file since last commit: git checkout -- <file>
+    
+    Branches:
+    
     - Create a branch: git branch <branch name>
     - Switch a branch: git checkout <branch name>
     - Merge branch with master: git merge <branch name>
     - Show branches: git branch
     - Delete a branch: git branch -d clean_up
+    - Create a new branch and and switch to it: git checkout -b <new branch name>
+    
+    Remote branches:
+    
+    - Show remote branches: git 
+    - Delete remote branch: git push origin --delete <remote branch name>
+    
     
     Tags: 
     
