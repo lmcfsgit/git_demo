@@ -34,3 +34,7 @@ Git commands:
     - Sharing tags: git push origin <tag name or --tags for all tags>
     - Checking out tags: git checkout -b <new baranch name> <tag_name>
     
+    
+    - Ignore changes to a file: git update-index --assume-unchanged <file>
+    - Track changes to a file: git update-index --no-assume-unchanged <file>
+    
