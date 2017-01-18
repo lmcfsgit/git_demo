@@ -27,6 +27,8 @@ Git commands:
     - Show branches: git branch
     - Delete a branch: git branch -d clean_up
     - Create a new branch and and switch to it: git checkout -b <new branch name>
+    - Show information about branches: git log --oneline --decorate --graph --all
+    
     
     Remote branches:
     
