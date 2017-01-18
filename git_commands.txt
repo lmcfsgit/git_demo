@@ -30,6 +30,7 @@ Git commands:
     
     Remote branches:
     
+    - Create new branch from local branch: git push -u origin <new remote branch name>
     - Show remote branches: git remote show origin
     - Delete remote branch: git push origin --delete <remote branch name>
     
