@@ -10,7 +10,7 @@ Git commands:
         git log
         git log --pretty="%h - %s" --author=lmcfsgit --since="2017-01-10" --before="2017-01-11" --no-merges
     - Show the details for a particular commit: git show <hash>
-    - Add a remote origin: git remote add origin https:github.com/<username>/<git repo>
+    - Add a remote origin: git remote add origin https://github.com/<username>/<git repo>
     - Push the code to the origin: git push -u origin master 
         (-f if there is a problem
             The -u option tells git to remembers the parameters, so next time you only have to write 
