@@ -46,9 +46,11 @@ Git commands:
     - Add later tagging: git tag -a <tag name> <7 first characters of log hash>
     - Sharing tags: git push origin <tag name or --tags for all tags>
     - Checking out tags: git checkout -b <new branch name> <tag_name>
-    
-    
+    - Delete remote tags: git push --delete origin <tag or tag names sep by space>
+    - List remote tags: git ls-remote --tags
+	
+	
     - Ignore changes to a file: git update-index --assume-unchanged <file>
     - Track changes to a file: git update-index --no-assume-unchanged <file>
     
-	
+	git
