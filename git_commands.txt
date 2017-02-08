@@ -31,6 +31,7 @@ Git commands:
     - Branches already merged into your current branch: git branch --merged
     - Branches not yet merged into your current branch: git branch --no-merged
     - See your tracking branches: git branch -vv
+    
     Remote branches:
     
     - Create new branch from local branch: git push -u origin <new remote branch name>
