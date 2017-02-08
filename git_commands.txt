@@ -28,8 +28,9 @@ Git commands:
     - Delete a branch: git branch -d clean_up
     - Create a new branch and and switch to it: git checkout -b <new branch name>
     - Show information about branches: git log --oneline --decorate --graph --all
-    
-    
+    - Branches already merged into your current branch: git branch --merged
+    - Branches not yet merged into your current branch: git branch --no-merged
+    - See your tracking branches: git branch -vv
     Remote branches:
     
     - Create new branch from local branch: git push -u origin <new remote branch name>
